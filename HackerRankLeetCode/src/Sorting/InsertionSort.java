@@ -9,6 +9,7 @@ public class InsertionSort {
         // and an unsorted part. Values from the unsorted part are picked and placed at
         // the correct position in the sorted part.
         // worst case O(n^2) , best case O(n)
+		
         int[] arr = {4,2,5,1,3};
         for(int i=1;i<arr.length;i++){
             int key = arr[i];
